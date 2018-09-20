@@ -2,7 +2,6 @@
 
 number = input("Please type in a number you want to check: ")
 flag = number % 2
-flag4 = number % 4
 
 
 if flag == 0:
@@ -16,7 +15,7 @@ else:
 # Extras problem ------------- multiple of 4
 
 flag_4 = number % 4
-if flag4 == 0:
+if flag_4 == 0:
 	print("this number is a multiple of 4")
 else:
 	print("this number is not a multiple of 4")
