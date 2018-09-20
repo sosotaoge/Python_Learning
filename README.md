@@ -2,3 +2,4 @@
 Python_exercise
 This is a place of Practice Python for personal use
 The original link is https://www.practicepython.org/
+I'm using python2
