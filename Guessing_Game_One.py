@@ -9,11 +9,9 @@ while True:
 		print("Your guessing is too low!\n")
 	elif num > Gnum:
 		print("Your guessing is too high\n")
-	elif num == Gnum:
+	else:
 		print("You got it! The number is " + str(Gnum) + '\n')
 		break
-	else:
-		print("Your guessing number is invalid!\n")
 
 	num = input("Please give another shot!")
 	flag += 1
