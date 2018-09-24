@@ -14,7 +14,7 @@ def rock_paper_scissors_comparator(your_choice):
 	while True:
 		# infinite loop, signal to quit
 		if your_choice == "quit":
-			print("You have win", win, "games", "lost", lose, "games", "and tie", tie, "games")
+			print("You have win" + str(win) "games, " + "lost" + str(lose) " games", " and tie " + str(tie) "games")
 			break
 		else:
 			# rock decision
